@@ -32,7 +32,7 @@ class MemoController extends Controller
 
             $memos = $query->get();
 
-            return view('main')
+            return view('index')
             ->with([
                 "memos" => $memos,
                 'search' => $search,
@@ -41,7 +41,7 @@ class MemoController extends Controller
 
         $memos = Memo::orderBy('created_at', 'asc')->get();
 
-        return view('main', [
+        return view('index', [
             "memos" => $memos
         ]);
     }
