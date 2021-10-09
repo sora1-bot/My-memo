@@ -1,4 +1,9 @@
-
+<!doctype html>
+<head>
+<script src="{{ asset('js/app.js') }}" defer></script>
+<link href="{{ asset('css/create.css') }}" rel="stylesheet">
+</head>
+<body>
 <h1>CREATE</h1>                                                                                                 
 <div>
     
@@ -18,3 +23,5 @@
     </form>
     <a href="/">戻る</a>
 </div>
+</body>
+</html>
