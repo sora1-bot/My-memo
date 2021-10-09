@@ -62,7 +62,7 @@ body {
   line-height: 1.6;
   color: #212529;
   text-align: left;
-  background-color: #99ff66;
+  background-color: #99ccff;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -2568,9 +2568,9 @@ fieldset:disabled a.btn {
 }
 
 .btn-info {
-  color: #212529;
-  background-color: #6cb2eb;
-  border-color: #6cb2eb;
+  color: #ffffcc;
+  background-color: #5d99ff;
+  border-color: #ffffff;
 }
 .btn-info:hover {
   color: #fff;

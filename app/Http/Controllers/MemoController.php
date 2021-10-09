@@ -73,16 +73,16 @@ class MemoController extends Controller
     {
         $memo = Memo::find($id);
         return view('edit', [
-           "memo" => $memo
+            "memo" => $memo
         ]);
     }
 
     //タスクを更新
     public function edit(Request $request)
     {
-       Memo::find($request->id)->update([
-           'title' => $request->title,
-           'sub_title' => $request->sub_title,
+        Memo::find($request->id)->update([
+            'title' => $request->title,
+            'sub_title' => $request->sub_title,
            //違う可能性大
             'image' => $request->image,
             'text' => $request->text,
