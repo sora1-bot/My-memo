@@ -4,7 +4,7 @@
 <link href="{{ asset('css/create.css') }}" rel="stylesheet">
 </head>
 <body>
-<h1>CREATE</h1>                                                                                                 
+<h1>Edit</h1>                                                                                                 
 <div>
     
     <form method="POST" action="/edit" enctype="multipart/form-data">
